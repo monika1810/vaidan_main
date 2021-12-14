@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ .name
+ {
+     font-weight: 900;
+     font-family:monospace;
+     font-size: 50px;
+     position: relative;
+     bottom: 55px;
+ }
+ .img_color
+{ 
+ background-color: #f4f4f4;
+}
+.gap_photo
+{
+    margin-left: 25px;
+}
+ .home
+ {
+     cursor: pointer;
+     color: brown;
+     font-weight: 700;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+ .search
+ {
+    justify-content: flex-end;
+ }
+ .cursor_pointer
+ {
+     cursor: pointer;
+     font-family: cursive;
+ }
+ #display_order
+ {
+     display: flex;
+     justify-content: end;
+ }
+ .search_class
+ {
+     border: none;
+     background-color: white;
+ }
+ #main_image
+ {
+     width: 100%;
+ }
+ #margin_left
+ {
+     margin: 0 auto;
+ }
+.width_manage img
+{
+    margin-left: 75px;
+}
+.apple
+{
+    text-align: center;
+    font-family: cursive;
+}
+.follow_design
+{
+    font-size: 15px;
+    font-weight: 600;
+}
+.design_center
+{
+    font-weight: 900;
+    font-family: cursive;
+    font-size: 20px;
+}
+.style_text
+{
+    font-family:cursive;
+    font-weight: 700;
+}
+.button_design
+{
+    background-color:green;
+    color:pink;
+    border-radius: 10px;
+    padding: 5px 20px;
+}
+.button_design:hover
+{
+    color:wheat;
+    background-color:saddlebrown;
+}
+#background_color
+{
+    background-color: #d3d1d1;
+}
+.clothing_bag
+{
+    margin:0 auto;
+}
+.ring_main
+{
+    margin-left: 20%;
+}
+.ring_file
+{
+    width:20%;
+}
+.back_color
+{
+    background-color:#eceaea
+}
+.social_list
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 25px;
+}
+.social_list :hover
+{
+    color: olive;
+}
+.list_group
+{
+    display: flex;
+    justify-content:space-evenly;
+    list-style: none;
+    margin-top: 40px;
+}
+.list_design
+{
+    font-weight: 700;
+    font-family: cursive;
+    font-size: 20px;
+    cursor: pointer;
+}
+@media only screen and (max-width: 1120px)
+ {
+     .remove_text
+    {
+        display: none;
+    } 
+    #vaidaan_logo{
+        bottom: 0px;
+    }
+}
+@media only screen and (max-width: 1050px)
+{
+    .width_manage img{
+         margin-left:20px ;
+    }
+    .list_design
+    {
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 980px)
+{
+    .width_manage img{
+         margin-left:5px ;
+    }
+    .right_container
+    {
+        float: left;
+    }
+}
+@media only screen and (max-width: 768px){.home
+    {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 767px)
+{
+    .gap_photo
+    {
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .width_manage
+    {
+        text-align:center;
+    }
+    .jwellery_manage
+    {
+        text-align: center;
+    }
+    .photos_control
+    {
+        text-align: center;
+    }
+    .list_design
+    {
+        font-size: 10px;
+    }
+    #jwellery_img
+    {
+         width: 100%;
+    }
+    .home
+    {
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 766px)
+{
+    .gap_photo
+    {
+        margin-left: 10px;
+    }
+    #dots_remove
+    {
+        display: none;
+    }
+}
+@media only screen and (max-width: 576px)
+{
+    #choker_id 
+    {
+      width: 100%;  
+    }
+}
+@media only screen and (max-width: 575px){
+    .customise_class
+    {
+        text-align: center;
+    }
+    .list_group
+    {
+        display: block;
+        text-align: center;
+    }
+    .list_design
+    {
+        font-weight: 700;
+        font-size: 15px;
+    }
+    .bag_clothing img
+    {
+        width: 100%;
+    }
+    #clothing_id_cont{
+        margin-left: 12px;
+    }
+    #tangerine_id{
+        margin-top: 20px;
+        margin-left: 45px;
+    }
+    
+}
+
+    @media only screen and (max-width: 451px){
+
+    #tangerine_id{
+        /* margin-top: 20px; */
+        margin-left: 35px;
+    }
+}
+@media only screen and (max-width: 350px){
+
+    #tangerine_id{
+        /* margin-top: 20px; */
+        margin-left: 25px;
+    }
+}
+@media only screen and (max-width: 350px)
+{
+    .remove_inr
+    {
+        display: none;
+    }
+    .remove_search
+    {
+        display: none;
+    }
+}
